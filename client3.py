@@ -22,6 +22,7 @@ import json
 import random
 import urllib.request
 
+
 # Server API URLs
 QUERY = "http://localhost:8080/query?id={}"
 
@@ -45,7 +46,6 @@ def getRatio(price_a, price_b):
     if price_b == 0:
         return 
     return price_a/price_b
-
 
 # Main
 if __name__ == "__main__":
